@@ -1,0 +1,54 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF8F4;
+}
+
+.navbar.bg-body-tertiary {
+    background-color: transparent !important;
+}
+
+.signup {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 13px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup:hover {
+    color: white;
+    background-color: #F8823B;
+}
+
+.login {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 13px;
+    color: white;
+    background-color: #F8823B;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login:hover {
+    color: black;
+    background-color: white;
+}
+
+.nav-item {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.carousel-item img {
+    border-radius: 33px;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
